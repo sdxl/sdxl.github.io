@@ -5,6 +5,15 @@ app.config(function($routeProvider){
 	.when('/', {
 		templateUrl: 'mainBacksplash.html'
 	})
+	.when('/services',{
+		templateUrl: 'services.html'
+	})
+	.when('/projects',{
+		templateUrl: 'projects.html'
+	})
+	.when('/aboutme',{
+		templateUrl: 'aboutme.html'
+	})
 	.otherwise({
 		redirectTo:'/'
 	})
