@@ -1,0 +1,15 @@
+#navbar{
+	margin-bottom: 0px;
+}
+
+.viewport{
+	height: 95%;
+	overflow: hidden;
+}
+
+.footer{
+	background-color: #ddd;
+	height: 5%;
+	bottom: 0;
+}
+

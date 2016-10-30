@@ -1,0 +1,19 @@
+{
+  "name": "sdxl.github.io",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdxl/sdxl.github.io.git"
+  },
+  "author": "sdxl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdxl/sdxl.github.io/issues"
+  },
+  "homepage": "https://github.com/sdxl/sdxl.github.io#readme",
+  "description": ""
+}
