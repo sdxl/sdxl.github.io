@@ -11,29 +11,25 @@
 </head>
 <body>
 
-	<main class="viewport">
-		<nav id="navbar" class="navbar navbar-default">
+	<main>
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <a class="navbar-brand" href="#/">
 		      	Eric Nguyen
 		      </a>
 		    </div>
-		    <ul class="nav nav-tabs">
+		    <!-- <ul class="nav nav-tabs">
 			  <li role="presentation"><a href="#/projects">Projects</a></li>
 			  <li role="presentation"><a href="#/services">Services</a></li>
 			  <li role="presentation"><a href="#/aboutme">About Me</a></li>
-			</ul>
+			</ul> -->
 		  </div>
 		</nav>
-		<div ng-view></div>
-		<!-- <h1>main backsplash</h1>
-		<div>
-			<a href="projects.html">my main projects</a>
-		</div> -->
+		<div ng-view class="content"></div>
 	</main>
 
-	<footer class="footer">
-    </footer>
+	<!-- <footer class="footer">
+    </footer> -->
 </body>
 </html>

@@ -2,14 +2,19 @@
 	margin-bottom: 0px;
 }
 
-.viewport{
-	height: 95%;
-	overflow: hidden;
-}
-
 .footer{
 	background-color: #ddd;
-	height: 5%;
-	bottom: 0;
+	height: 11%;
+	/*bottom: 0;*/
 }
 
+.content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*@media screen and (max-width: 597px){
+	.main-card{
+		display: none;
+	}
+}*/
