@@ -3,16 +3,19 @@ var app = angular.module('website', ['ngRoute'])
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/', {
-		templateUrl: 'mainBacksplash.html'
+		templateUrl: '../views/mainBacksplash.html'
 	})
 	.when('/services',{
-		templateUrl: 'services.html'
+		templateUrl: '../views/services.html'
 	})
 	.when('/projects',{
-		templateUrl: 'projects.html'
+		templateUrl: '../views/projects.html'
 	})
 	.when('/aboutme',{
-		templateUrl: 'aboutme.html'
+		templateUrl: '../views/aboutme.html'
+	})
+	.when('/resume',{
+		templateUrl: '../views/resume.html'
 	})
 	.otherwise({
 		redirectTo:'/'
