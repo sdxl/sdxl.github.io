@@ -13,7 +13,7 @@ app.service("aboutMeCardDataService", function(){
 			},
 			back:{
 				text: "english",
-				backgroundColor: "green",
+				backgroundColor: "grey",
 			},
 			initiallyFlipped: true
 		},
