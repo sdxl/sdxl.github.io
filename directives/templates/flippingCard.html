@@ -1,1 +1,15 @@
-<h1>FLIPPING CARD DIRECTIVE</h1>
+<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 flip"> 
+    <div class="card" ng-class="{'flipped':flipped}" ng-click="flipCard()"> 
+        <div class="face front" ng-style="{'background': initiallyFlipped ? back.backgroundColor : front.backgroundImageUrl}">
+            <div class="card-text">
+                {{initiallyFlipped ? front.text: back.text}}
+            </div>
+        </div>
+
+        <div class="face back" ng-style="{'background': initiallyFlipped ? front.backgroundImageUrl : back.backgroundColor}">
+            <div class="card-main-text">
+                {{initiallyFlipped ? back.text : front.text}}
+            </div> 
+        </div> 
+    </div> 
+</div> 

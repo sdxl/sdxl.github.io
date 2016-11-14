@@ -12,7 +12,8 @@ app.config(function($routeProvider){
 		templateUrl: '../views/projects.html'
 	})
 	.when('/aboutme',{
-		templateUrl: '../views/aboutme.html'
+		templateUrl: '../views/aboutme.html',
+		controller: "aboutMeController"
 	})
 	.when('/resume',{
 		templateUrl: '../views/resume.html'
