@@ -1,5 +1,10 @@
+body{
+  background-color: #d6c8c8;
+}
+
 #navbar{
 	margin-bottom: 0px;
+  background-color: #efe8e8;
 }
 
 .content{
