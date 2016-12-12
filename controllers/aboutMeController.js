@@ -8,5 +8,4 @@ app.controller("aboutMeController", ['$scope', 'aboutMeCardDataService', functio
 
 	$scope.french = aboutMeCards.getCardVersion('fr');
 	
-	console.log("inside of aboutMeController");
 }])
