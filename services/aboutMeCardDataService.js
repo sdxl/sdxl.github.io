@@ -10,9 +10,9 @@ app.service("aboutMeCardDataService", function(){
 				text:"Hi, thanks for visiting my site!\n"+
 				"I'm currently a software engineer in San Francisco.\n" +
 				"In addition to my Javascript expertise, I also have experience with iOS development.\n"+
-				"Check back often as, I'll have more projects to show off as this site and the projects get built out.\n"+
+				"Check back often as, I'll have more projects to show off as this site grows.\n"+
 				"I'm fluent in French, English, Mandarin, Vietnamese and Cantonese and have studied Spanish and Japanese.\n" +
-				"For fun, feel free to click around the surrounding panes for some multinlingual awesomeness!",
+				"For fun, feel free to click around the surrounding panes for some multilingual awesomeness!",
 				backgroundColor: "#C8CFC8",
 			},
 			initiallyFlipped: true
@@ -53,11 +53,10 @@ app.service("aboutMeCardDataService", function(){
 			},
 			back: {
 				text:"Bonjour!\n"+
-				"Merci d'etre venu ici, visiter mon site! Je m'appelle Eric et je suis actuellement un informaticien habitant a San Francisco." +
-				"Je suis francais, ne a Paris, mais on a demenager aux Etats-Unis quand j'etais tres petit et, donc, je ne me souviens pas tres grandes choses de la France." +
-				"Effectivement, j'ai completement oublie le francais (on ne parlait que vietnamien a la maison) et c'est juste un petit peu avant l'universite que j'ai " + 
-				"commence a recupere mon francais."+
-				"Au boulot, a WalkMe ou j'ecris de code en Javascript utilisant Angular et Node. A la maison, j'ecris des app pour le iPhone avec Swift et XCode.",
+				"Merci d'être venu ici, visiter mon site! Je m'appelle États-Unis quand j'étais très petit et, donc, je ne me souviens pas très grandes choses de la France." +
+				"Effectivement, j'ai complètement oublié le français (on ne parlait que vietnamien à la maison) et c'est juste un petit peu avant l'université que j'ai " + 
+				"commence à recupere mon français."+
+				"Au boulot, à WalkMe ou j'écris de code en Javascript utilisant Angular et Node. À la maison, j'écris des app pour le iPhone avec Swift et XCode.",
 				backgroundColor: "#C8CFC8"
 			},
 			initiallyFlipped: false
